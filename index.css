@@ -109,7 +109,7 @@ nav {
     flex-direction: column;
     gap: 8px;
     align-items: center;
-    max-width: 200px;
+    max-width: 220px;
     text-align: center;
     border: #E5E7EB 1px solid;
     padding: 4px;
@@ -145,4 +145,18 @@ nav {
     font-style: normal;
     margin-top: 10px;
     font-weight: 900;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 24px;
+    padding: 25px;
+    background-image: linear-gradient(blue, yellow);
+}
+
+.contacts a {
+    color: black;
+    font-size: 32px;
 }
