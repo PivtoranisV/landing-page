@@ -2,8 +2,7 @@
 This is a solution to the landing-page Project from The Odin Project.
 
 Solution URL: https://github.com/PivtoranisV/landing-page
-Live Site URL: https://pivtoranisv.github.io/product-preview-card-component-main/
-My process
+Live Site URL: https://pivtoranisv.github.io/landing-page/
 
 Built with:
 
