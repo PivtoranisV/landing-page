@@ -87,3 +87,36 @@ nav {
     padding: 5px 15px;
     border-radius: 8px;
 }
+
+.companies__h1 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 38px;
+    font-weight: 900;
+    margin: 15px;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    max-width: 200px;
+    text-align: justify;
+    font-size: 14px;
+    border: #E5E7EB 1px solid;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.ford {
+    gap: 18px;
+}
