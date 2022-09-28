@@ -160,3 +160,10 @@ nav {
     color: black;
     font-size: 32px;
 }
+
+footer {
+    background-color: #1F2937;
+    padding: 30px;
+    color: #E5E7EB;
+    text-align: center;
+}
