@@ -153,11 +153,12 @@ nav {
     gap: 30px;
     font-size: 24px;
     padding: 25px;
-    background-image: linear-gradient(blue, yellow);
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 #contacts a {
-    color: black;
+    color: #E5E7EB;
     font-size: 32px;
 }
 
