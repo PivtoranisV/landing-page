@@ -14,8 +14,8 @@ img {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 li {
@@ -29,9 +29,9 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
-    padding: 8px 0;
+    padding: 8px 40px;
 }
 
 .links {
@@ -47,7 +47,41 @@ nav {
     border: yellow 1px solid;
 }
 
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #1F2937;
+}
+
 .header__img img {
-    max-width: 400px;
+    width: 400px;
     height: auto;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.about__h1 {
+    color: #F9FAFA;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 2.7rem;
+}
+
+.about__text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 8px;
 }
