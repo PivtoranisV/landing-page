@@ -12,6 +12,34 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 8px 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .logo img {
     width: 50px;
     height: auto;
@@ -20,6 +48,6 @@ img {
 }
 
 .header__img img {
-    width: 400px;
+    max-width: 400px;
     height: auto;
 }
